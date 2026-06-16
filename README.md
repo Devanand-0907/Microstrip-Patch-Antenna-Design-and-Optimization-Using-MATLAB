@@ -256,12 +256,20 @@ The return loss ($S_{11}$) measures reflected signal power.
 *   **Standard Patch:** Dips to about **$-11.0\text{ dB}$** at $2.0\text{ GHz}$, satisfying the basic limit ($S_{11} \le -10\text{ dB}$) but leaving the system susceptible to minor environmental shifts.
 *   **E-Notch Patch:** Exhibits a deep resonance of **$-27.50\text{ dB}$** at $2.0\text{ GHz}$. It also maintains secondary return loss dips of **$-21.40\text{ dB}$** at $2.20\text{ GHz}$, and **$-24.10\text{ dB}$** at $2.42\text{ GHz}$, verifying a multi-resonance wideband operational state.
 
+| Standard Rectangular S11 | E-Notch S11 |
+| :---: | :---: |
+| ![Standard S11](docs/images/std_s11.png) | ![E-Notch S11](docs/images/enotch_s11.png) |
+
 ---
 
 ## 16. VSWR Analysis
 The VSWR measures voltage stand waves resulting from mismatches:
 *   **Standard Patch:** A VSWR of $\approx 1.8$ is obtained at $2.0\text{ GHz}$, representing a transmission efficiency of $91.8\%$.
 *   **E-Notch Patch:** VSWR drops to **$1.088$** at $2.0\text{ GHz}$ (99.82% efficiency), **$1.20$** at $2.20\text{ GHz}$ (99.09% efficiency), and **$1.14$** at $2.42\text{ GHz}$ (99.48% efficiency), proving stable matching.
+
+| Standard Rectangular VSWR | E-Notch VSWR |
+| :---: | :---: |
+| ![Standard VSWR](docs/images/std_vswr.png) | ![E-Notch VSWR](docs/images/enotch_vswr.png) |
 
 ---
 
@@ -270,6 +278,10 @@ The 3D radiation pattern demonstrates directional coverage:
 *   Both antennas maintain a stable **broadside radiation pattern**, with the main lobe pointing along the Z-axis perpendicular to the patch surface.
 *   The peak directivity gain is approximately **$5.37\text{ dBi}$** at $2.0\text{ GHz}$.
 *   The radiation pattern remains stable across the expanded operating band, indicating that the introduction of notches does not distort the directional characteristics.
+
+| Standard 3D Radiation Pattern | E-Notch 3D Radiation Pattern |
+| :---: | :---: |
+| ![Standard Radiation Pattern](docs/images/std_radiation.png) | ![E-Notch Radiation Pattern](docs/images/enotch_radiation.png) |
 
 ---
 
@@ -353,19 +365,32 @@ You can execute individual antenna designs or run the automated comparison:
 
 ---
 
-## 26. Screenshots & Figure Placeholders
-*Placeholders for user-generated simulation plots. When running the scripts, export the generated MATLAB figures to `docs/images/` to update these files:*
+## 26. Simulation Screenshots Gallery
+Here are the actual simulation figures extracted directly from the ECE academic project report:
 
-*   **Standard Patch Structure Layout:**
-    `![Standard Patch Geometry](docs/images/std_geometry.png)`
-*   **E-Notch Patch Structure Layout:**
-    `![E-Notch Geometry](docs/images/enotch_geometry.png)`
-*   **Comparative Return Loss (S11) Plot:**
-    `![S11 Overlay](docs/images/s11_overlay.png)`
-*   **Comparative VSWR Plot:**
-    `![VSWR Overlay](docs/images/vswr_overlay.png)`
-*   **3D Radiation Pattern Comparison:**
-    `![Radiation Pattern](docs/images/radiation_pattern.png)`
+### Antenna Geometry Layouts
+*   **Standard Rectangular Patch:**
+    ![Standard Patch Geometry](docs/images/std_geometry.png)
+*   **E-Notch Patch Structure:**
+    ![E-Notch Geometry](docs/images/enotch_geometry.png)
+
+### S-Parameter Analysis (S11)
+*   **Standard Rectangular Patch S11:**
+    ![Standard S11](docs/images/std_s11.png)
+*   **E-Notch Patch S11:**
+    ![E-Notch S11](docs/images/enotch_s11.png)
+
+### VSWR Analysis
+*   **Standard Rectangular Patch VSWR:**
+    ![Standard VSWR](docs/images/std_vswr.png)
+*   **E-Notch Patch VSWR:**
+    ![E-Notch VSWR](docs/images/enotch_vswr.png)
+
+### 3D Radiation Pattern
+*   **Standard Rectangular Patch Pattern:**
+    ![Standard Radiation Pattern](docs/images/std_radiation.png)
+*   **E-Notch Patch Pattern:**
+    ![E-Notch Radiation Pattern](docs/images/enotch_radiation.png)
 
 ---
 
