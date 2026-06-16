@@ -1,0 +1,16 @@
+# MATLAB specific ignores
+*.asv
+*.fig
+*.mat
+*.mex*
+*.slxc
+*.sxc
+*~
+# Logs and temp files
+*.log
+*.tmp
+# Local user settings
+.local/
+# OS files
+.DS_Store
+Thumbs.db
