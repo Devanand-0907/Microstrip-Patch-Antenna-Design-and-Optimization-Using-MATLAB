@@ -435,11 +435,11 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## 30. Authors
 Developed as a final-year ECE project by:
-*   **Akash V** (710723106007)
-*   **Anusri S** (710723106008)
-*   **Christina Joyce J** (710723106019)
-*   **J K Dakshata** (710723106020)
-*   **Devanand N** (710723106021) - *Project Lead & Maintainer*
+*   **Devanand N** (710723106021) - **Project Lead & Lead RF Simulation Maintainer** | *GitHub:* [@Devanand-0907](https://github.com/Devanand-0907)
+*   **Akash V** (710723106007) - **RF Hardware Designer & Simulation Analyst** | *Email:* [akashveeramuthu07@gmail.com](mailto:akashveeramuthu07@gmail.com)
+*   **J K Dakshata** (710723106020) - **Electromagnetic Solver & S-Parameter Analyst** | *Email:* [dakshata8610@gmail.com](mailto:dakshata8610@gmail.com)
+*   **Anusri S** (710723106008) - **Mathematical Modeler & Parameter Optimization Engineer**
+*   **Christina Joyce J** (710723106019) - **Antenna Prototyping & Technical Documentation Engineer**
 
 ---
 
